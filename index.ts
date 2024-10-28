@@ -5,7 +5,7 @@ import dotenv from 'dotenv';
 dotenv.config();
 
 const HTTP_PORT = 8181;
-const WS_PORT = process.env.WS_PORT || 4000;
+const WS_PORT = process.env.WS_PORT || 3000;
 
 console.log(`Static http server started on ${HTTP_PORT} port!`);
 console.log(`WebSocket server started on ${WS_PORT} port!`);
